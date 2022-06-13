@@ -1,0 +1,62 @@
+@import './../../../../colours.scss';
+
+.guess {
+    height: 34px;
+    width: 100%;
+
+    .pre-guess {
+        height: 34px;
+        border-radius: 4px;
+        background-color: $grey;
+        border: solid 1px $grey;
+    }
+    .is-not-blank {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        .percent-wrapper {
+            height: 30px;
+            width: 20%;
+            border-radius: 4px;
+            border: solid 2px $grey;
+            position: relative;
+            .percent {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+        .is-guessed {
+            height: 30px;
+            width: 77%;
+            border-radius: 4px;
+            border: solid 2px $grey;
+        } 
+        .is-loading {
+            height: 30px;
+            width: 77%;
+            border-radius: 4px;
+            border: solid 2px $grey;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            span {
+                width: 25px;
+                height: 25px;
+                border-radius: 3px;
+                &.green {
+                    background-color: $green;
+                }
+                &.yellow {
+                    background-color: $yellow;
+                }
+                &.grey {
+                    background-color: $grey;
+                }
+            }
+        }
+    }
+}

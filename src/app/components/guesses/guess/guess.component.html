@@ -1,0 +1,35 @@
+<div class="guess">
+    <div *ngIf="guess.isBlank" class="pre-guess"></div>
+    <div class="is-not-blank">
+        <div *ngIf="guess.isLoading" class="is-loading">
+            <span 
+                *ngFor="let square of guess.squares; let i = index" 
+                data-aos="fade-in"
+                data-aos-duration="500"
+                [attr.data-aos-delay]="getDelay(i)"
+                class="{{ square }}"
+            ></span>
+        </div>
+        <div class="is-guessed" *ngIf="guess.isGuessed">
+            <div class="country">
+
+            </div>
+            <div class="kilometers">
+
+            </div>
+            <div class="direction">
+
+            </div>
+        </div>
+        <div class="percent-wrapper"
+            *ngIf="guess.isLoading || guess.isGuessed">
+            <div class="percent">
+
+            </div>
+            <!-- <div class="percent" 
+            [ngClass]="{ 'animate-box' : guess.isGuessed }">
+                <span [countUp]="guess.distance"></span>%
+            </div> -->
+        </div>
+    </div>
+</div>

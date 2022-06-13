@@ -1,0 +1,4 @@
+<div class="guesses">
+    <app-guess *ngFor="let guess of guesses$ | async" [guess]="guess"></app-guess>
+    <app-input></app-input>
+</div>

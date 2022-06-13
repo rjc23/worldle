@@ -1,0 +1,16 @@
+
+
+<div class="wrapper">
+    <div class="input-wrapper">
+        <div #dropdown *ngIf="showListBox" class="list-box">
+            <a (click)="countrySelect(item)" class="item" *ngFor="let item of list | async">
+                {{ item }}
+            </a>
+        </div>
+        <input [formControl]="input" (focus)="onFocus()"
+            type="text"
+        >
+    </div>
+    <button (click)="guess()">🌎 GUESS</button>
+</div>
+
