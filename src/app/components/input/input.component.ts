@@ -2,7 +2,8 @@ import { Component, ElementRef, HostListener, Injectable, OnInit, ViewChild } fr
 import { FormControl, ValidatorFn } from '@angular/forms';
 import { BehaviorSubject, map, Observable, Subject, Subscription, tap } from 'rxjs';
 import { DataService } from '../../services/data.service';
-import { Game } from '../../interfaces/interfaces';
+import { Country, Game } from '../../interfaces/interfaces';
+import { CountriesService } from 'src/app/services/countries.service';
 
 @Component({
   selector: 'app-input',
@@ -25,21 +26,18 @@ export class InputComponent implements OnInit {
     }
   }
 
-  listItems = [
-    "Australia",
-    "Bahamas",
-    "Austria",
-    "Italy",
-  ];
-
   showListBox = false;
   input = new FormControl('');
   focusClicked = false;
-  list = new BehaviorSubject(this.listItems);
+  countryNames: string[] = [];
+  list = new BehaviorSubject(this.countryNames);
   state$: Observable<Game>;
   inputValue$: any;
 
-  constructor(private data: DataService) { 
+  constructor(
+    private data: DataService,
+    private countries: CountriesService
+  ) { 
     this.state$ = this.data.getState();
     this.inputValue$ = this.state$.pipe(
       map(val => val.guessValue)
@@ -49,6 +47,9 @@ export class InputComponent implements OnInit {
   ngOnInit(): void {
     this.onChanges();
     this.inputChange();
+    let countries = this.countries.getCountries();
+    this.countryNames = countries.map(val => val.name);
+    this.list.next(this.countryNames);
   }
   
   onFocus() {
@@ -77,7 +78,7 @@ export class InputComponent implements OnInit {
 
   filterList(val: string) {
     let newList: string[] = [];
-    this.listItems.forEach(word => {
+    this.countryNames.forEach(word => {
       if(word.toLowerCase().includes(val.toLowerCase())) {
         newList.push(word);
       }

@@ -12,24 +12,20 @@
         </div>
         <div class="is-guessed" *ngIf="guess.isGuessed">
             <div class="country">
-
+                {{ guess.country }}
             </div>
             <div class="kilometers">
-
+                {{ guess.distance }}km
             </div>
             <div class="direction">
-
+                {{ guess.direction }}
             </div>
         </div>
         <div class="percent-wrapper"
             *ngIf="guess.isLoading || guess.isGuessed">
             <div class="percent">
-
+                <span [countUp]="guess.percent"></span>%
             </div>
-            <!-- <div class="percent" 
-            [ngClass]="{ 'animate-box' : guess.isGuessed }">
-                <span [countUp]="guess.distance"></span>%
-            </div> -->
         </div>
     </div>
 </div>

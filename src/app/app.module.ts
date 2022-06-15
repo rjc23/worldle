@@ -26,7 +26,9 @@ import { CountUpModule } from 'ngx-countup';
     ReactiveFormsModule,
     CountUpModule
   ],
-  providers: [],
+  providers: [
+
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,3 +1,5 @@
 <div class="wrapper">
-    <img src="./../../assets/italy.png" alt="Country to guess">
+    <span *ngIf="state$ | async as state">
+        <img [attr.src]="state.imgSrc" alt="Country to guess">
+    </span>
 </div>
