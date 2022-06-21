@@ -39,7 +39,7 @@ export const countries: Country[] = [
         long: -63.16666666,
         mapSrc: "https://i.imgur.com/FppkAXG.png",
         country_code: "AI",
-        flagSrc: ""
+        flagSrc: "https://i.imgur.com/ruMPXDF.png"
     },
     {
         name: "Åland Islands",
@@ -49,7 +49,7 @@ export const countries: Country[] = [
         long: 19.9,
         mapSrc: "https://i.imgur.com/6fuTrtz.png",
         country_code: "AX",
-        flagSrc: ""
+        flagSrc: "https://i.imgur.com/7R39XTr.png"
     },
     {
         name: "Albania",
@@ -109,7 +109,7 @@ export const countries: Country[] = [
         long: -170,
         mapSrc: "https://i.imgur.com/xQmSmZa.png",
         country_code: "AS",
-        flagSrc: ""
+        flagSrc: "https://i.imgur.com/tZ5dKrz.png"
     },
     {
         name: "Antigua and Barbuda",
@@ -369,7 +369,7 @@ export const countries: Country[] = [
         long: 96.83333333,
         mapSrc: "https://i.imgur.com/nFQp42p.png",
         country_code: "CC",
-        flagSrc: ""
+        flagSrc: "https://i.imgur.com/WGrMknn.png"
     },
     {
         name: "Switzerland",
@@ -509,7 +509,7 @@ export const countries: Country[] = [
         long: -68.933333,
         mapSrc: "https://i.imgur.com/pnYI1JZ.png",
         country_code: "CW",
-        flagSrc: ""
+        flagSrc: "https://i.imgur.com/c97cfZY.png"
     },
     {
         name: "Christmas Island",
@@ -519,7 +519,7 @@ export const countries: Country[] = [
         long: 105.66666666,
         mapSrc: "https://i.imgur.com/deD5KYf.png",
         country_code: "CX",
-        flagSrc: ""
+        flagSrc: "https://i.imgur.com/gnp858C.png"
     },
     {
         name: "Cayman Islands",
@@ -649,7 +649,7 @@ export const countries: Country[] = [
         long: -13,
         mapSrc: "https://i.imgur.com/r0HTE0b.png",
         country_code: "EH",
-        flagSrc: ""
+        flagSrc: "https://i.imgur.com/nsHtXaW.png"
     },
     {
         name: "Spain",
@@ -709,7 +709,7 @@ export const countries: Country[] = [
         long: -59,
         mapSrc: "https://i.imgur.com/g927pts.png",
         country_code: "FK",
-        flagSrc: ""
+        flagSrc: "https://i.imgur.com/9vMiBQ8.png"
     },
     {
         name: "France",
@@ -729,7 +729,7 @@ export const countries: Country[] = [
         long: -7,
         mapSrc: "https://i.imgur.com/hi7hPV4.png",
         country_code: "FO",
-        flagSrc: ""
+        flagSrc: "https://i.imgur.com/heswKCk.png"
     },
     {
         name: "Micronesia",
@@ -739,7 +739,7 @@ export const countries: Country[] = [
         long: 158.25,
         mapSrc: "https://i.imgur.com/bVfnfGP.png",
         country_code: "FM",
-        flagSrc: ""
+        flagSrc: "https://i.imgur.com/mjt2FNm.png"
     },
     {
         name: "Gabon",
@@ -779,7 +779,7 @@ export const countries: Country[] = [
         long: -2.58333333,
         mapSrc: "https://i.imgur.com/crlfCze.png",
         country_code: "GG",
-        flagSrc: ""
+        flagSrc: "https://i.imgur.com/Ymz2w6L.png"
     },
     {
         name: "Ghana",
@@ -799,7 +799,7 @@ export const countries: Country[] = [
         long: -5.35,
         mapSrc: "https://i.imgur.com/e2ebo3h.png",
         country_code: "GI",
-        flagSrc: ""
+        flagSrc: "https://i.imgur.com/WAwpyrk.png"
     },
     {
         name: "Guinea",
@@ -819,7 +819,7 @@ export const countries: Country[] = [
         long: -61.583333,
         mapSrc: "https://i.imgur.com/rSSmDrT.png",
         country_code: "GP",
-        flagSrc: ""
+        flagSrc: "https://i.imgur.com/NACSyK4.png"
     },
     {
         name: "Gambia",
@@ -899,7 +899,7 @@ export const countries: Country[] = [
         long: -53,
         mapSrc: "https://i.imgur.com/a4aTljV.png",
         country_code: "GF",
-        flagSrc: ""
+        flagSrc: "https://i.imgur.com/V60LbSq.png"
     },
     {
         name: "Guam",
@@ -977,7 +977,7 @@ export const countries: Country[] = [
         capital: "Jakarta",
         lat: -5,
         long: 120,
-        mapSrc: "https://i.imgur.com/sRjUX2Y.png",
+        mapSrc: "https://i.imgur.com/qQ7AZbJ.png",
         country_code: "ID",
         flagSrc: "https://i.imgur.com/KMQ4Sy5.jpg"
     },
@@ -1089,7 +1089,7 @@ export const countries: Country[] = [
         long: -2.16666666,
         mapSrc: "https://i.imgur.com/hi7RFf2.png",
         country_code: "JE",
-        flagSrc: ""
+        flagSrc: "https://i.imgur.com/CpW0RJY.png"
     },
     {
         name: "Jordan",
@@ -1189,7 +1189,7 @@ export const countries: Country[] = [
         long: 21.166667,
         mapSrc: "https://i.imgur.com/kwd7zRV.png",
         country_code: "XK",
-        flagSrc: ""
+        flagSrc: "https://i.imgur.com/1vQ1Y1a.png"
     },
     {
         name: "Kuwait",
@@ -1311,16 +1311,16 @@ export const countries: Country[] = [
         country_code: "LV",
         flagSrc: "https://i.imgur.com/byjmosb.jpg"
     },
-    {
-        name: "Saint Martin",
-        region: "America",
-        capital: "Marigot",
-        lat: 18.08333333,
-        long: -63.95,
-        mapSrc: "https://i.imgur.com/mYfus1R.png",
-        country_code: "MF",
-        flagSrc: ""
-    },
+    // {
+    //     name: "Saint Martin",
+    //     region: "America",
+    //     capital: "Marigot",
+    //     lat: 18.08333333,
+    //     long: -63.95,
+    //     mapSrc: "https://i.imgur.com/mYfus1R.png",
+    //     country_code: "MF",
+    //     flagSrc: ""
+    // },
     {
         name: "Morocco",
         region: "Africa",
@@ -1389,7 +1389,7 @@ export const countries: Country[] = [
         long: 168,
         mapSrc: "https://i.imgur.com/aQNcvi2.png",
         country_code: "MH",
-        flagSrc: ""
+        flagSrc: "https://i.imgur.com/cFTl1t2.png"
     },
     {
         name: "Macedonia",
@@ -1451,16 +1451,16 @@ export const countries: Country[] = [
         country_code: "MN",
         flagSrc: "https://i.imgur.com/7nYUIVg.jpg"
     },
-    {
-        name: "Northern Mariana Islands",
-        region: "Pacific",
-        capital: "Saipan",
-        lat: 15.2,
-        long: 145.75,
-        mapSrc: "",
-        country_code: "MP",
-        flagSrc: ""
-    },
+    // {
+    //     name: "Northern Mariana Islands",
+    //     region: "Pacific",
+    //     capital: "Saipan",
+    //     lat: 15.2,
+    //     long: 145.75,
+    //     mapSrc: "",
+    //     country_code: "MP",
+    //     flagSrc: ""
+    // },
     {
         name: "Mozambique",
         region: "Africa",
@@ -1477,7 +1477,7 @@ export const countries: Country[] = [
         capital: "Nouakchott",
         lat: 20,
         long: -12,
-        mapSrc: "",
+        mapSrc: "https://i.imgur.com/Qw7mRch.png",
         country_code: "MR",
         flagSrc: "https://i.imgur.com/UmE3c0k.jpg"
     },
@@ -1491,23 +1491,23 @@ export const countries: Country[] = [
     //     country_code: "MS",
     //     flagSrc: ""
     // },
-    {
-        name: "Martinique",
-        region: "America",
-        capital: "Fort-de-France",
-        lat: 14.666667,
-        long: -61,
-        mapSrc: "",
-        country_code: "MQ",
-        flagSrc: ""
-    },
+    // {
+    //     name: "Martinique",
+    //     region: "America",
+    //     capital: "Fort-de-France",
+    //     lat: 14.666667,
+    //     long: -61,
+    //     mapSrc: "",
+    //     country_code: "MQ",
+    //     flagSrc: ""
+    // },
     {
         name: "Mauritius",
         region: "Indian",
         capital: "Port Louis",
         lat: -20.28333333,
         long: 57.55,
-        mapSrc: "https://i.imgur.com/hZn44gf.png",
+        mapSrc: "https://i.imgur.com/pcuJKuz.png",
         country_code: "MU",
         flagSrc: "https://i.imgur.com/A4hdSbK.jpg"
     },
@@ -1517,7 +1517,7 @@ export const countries: Country[] = [
         capital: "Lilongwe",
         lat: -13.5,
         long: 34,
-        mapSrc: "",
+        mapSrc: "https://i.imgur.com/AF2Ya2R.png",
         country_code: "MW",
         flagSrc: "https://i.imgur.com/MapvTUM.jpg"
     },
@@ -1531,23 +1531,23 @@ export const countries: Country[] = [
         country_code: "MY",
         flagSrc: "https://i.imgur.com/EDz6P6Y.jpg"
     },
-    {
-        name: "Mayotte",
-        region: "Indian",
-        capital: "Mamoudzou",
-        lat: -12.83333333,
-        long: 45.16666666,
-        mapSrc: "",
-        country_code: "YT",
-        flagSrc: ""
-    },
+    // {
+    //     name: "Mayotte",
+    //     region: "Indian",
+    //     capital: "Mamoudzou",
+    //     lat: -12.83333333,
+    //     long: 45.16666666,
+    //     mapSrc: "",
+    //     country_code: "YT",
+    //     flagSrc: ""
+    // },
     {
         name: "Namibia",
         region: "Africa",
         capital: "Windhoek",
         lat: -22,
         long: 17,
-        mapSrc: "",
+        mapSrc: "https://i.imgur.com/6k2DMcV.png",
         country_code: "NA",
         flagSrc: "https://i.imgur.com/Cet0pj8.jpg"
     },
@@ -1557,7 +1557,7 @@ export const countries: Country[] = [
         capital: "Nouméa",
         lat: -21.5,
         long: 165.5,
-        mapSrc: "",
+        mapSrc: "https://i.imgur.com/pBkG3UT.png",
         country_code: "NC",
         flagSrc: "https://i.imgur.com/SCAUG4P.jpg"
     },
@@ -1567,7 +1567,7 @@ export const countries: Country[] = [
         capital: "Niamey",
         lat: 16,
         long: 8,
-        mapSrc: "",
+        mapSrc: "https://i.imgur.com/FqEOrIn.png",
         country_code: "NE",
         flagSrc: "https://i.imgur.com/niavQED.jpg"
     },
@@ -1577,9 +1577,9 @@ export const countries: Country[] = [
         capital: "Kingston",
         lat: -29.03333333,
         long: 167.95,
-        mapSrc: "",
+        mapSrc: "https://i.imgur.com/uJzSEiq.png",
         country_code: "NF",
-        flagSrc: ""
+        flagSrc: "https://i.imgur.com/j2w21ij.png"
     },
     {
         name: "Nigeria",
@@ -1587,7 +1587,7 @@ export const countries: Country[] = [
         capital: "Abuja",
         lat: 10,
         long: 8,
-        mapSrc: "",
+        mapSrc: "https://i.imgur.com/3B4rSXE.png",
         country_code: "NG",
         flagSrc: "https://i.imgur.com/HtduKvS.jpg"
     },
@@ -1607,9 +1607,9 @@ export const countries: Country[] = [
         capital: "Alofi",
         lat: -19.03333333,
         long: -169.86666666,
-        mapSrc: "",
+        mapSrc: "https://i.imgur.com/aec9ynl.png",
         country_code: "NU",
-        flagSrc: ""
+        flagSrc: "https://i.imgur.com/2wyxstS.png"
     },
     {
         name: "Netherlands",
@@ -1647,7 +1647,7 @@ export const countries: Country[] = [
         capital: "Yaren",
         lat: -0.53333333,
         long: 166.91666666,
-        mapSrc: "",
+        mapSrc: "https://i.imgur.com/ad4HttM.png",
         country_code: "NR",
         flagSrc: "https://i.imgur.com/cX74B0K.jpg"
     },
@@ -1691,16 +1691,16 @@ export const countries: Country[] = [
         country_code: "PA",
         flagSrc: "https://i.imgur.com/hUWMRy7.jpg"
     },
-    {
-        name: "Pitcairn Islands",
-        region: "Pacific",
-        capital: "Adamstown",
-        lat: -25.06666666,
-        long: -130.1,
-        mapSrc: "",
-        country_code: "PN",
-        flagSrc: ""
-    },
+    // {
+    //     name: "Pitcairn Islands",
+    //     region: "Pacific",
+    //     capital: "Adamstown",
+    //     lat: -25.06666666,
+    //     long: -130.1,
+    //     mapSrc: "",
+    //     country_code: "PN",
+    //     flagSrc: ""
+    // },
     {
         name: "Peru",
         region: "America",
@@ -1727,7 +1727,7 @@ export const countries: Country[] = [
         capital: "Ngerulmud",
         lat: 7.5,
         long: 134.5,
-        mapSrc: "",
+        mapSrc: "https://imgur.com/jSfHTte",
         country_code: "PW",
         flagSrc: "https://i.imgur.com/LgSCplM.jpg"
     },
@@ -1737,7 +1737,7 @@ export const countries: Country[] = [
         capital: "Port Moresby",
         lat: -6,
         long: 147,
-        mapSrc: "",
+        mapSrc: "https://i.imgur.com/GawXCCr.png",
         country_code: "PG",
         flagSrc: "https://i.imgur.com/1V9fl9a.jpg"
     },
@@ -1757,7 +1757,7 @@ export const countries: Country[] = [
         capital: "San Juan",
         lat: 18.25,
         long: -66.5,
-        mapSrc: "",
+        mapSrc: "https://i.imgur.com/WpU1NbA.png",
         country_code: "PR",
         flagSrc: "https://i.imgur.com/B9bo0Qk.jpg"
     },
@@ -1797,20 +1797,20 @@ export const countries: Country[] = [
         capital: "Ramallah",
         lat: 31.9,
         long: 35.2,
-        mapSrc: "",
+        mapSrc: "https://i.imgur.com/25M3b82.png",
         country_code: "PS",
         flagSrc: "https://i.imgur.com/5MWXsTr.jpg"
     },
-    {
-        name: "French Polynesia",
-        region: "Pacific",
-        capital: "Papeetē",
-        lat: -15,
-        long: -140,
-        mapSrc: "",
-        country_code: "PF",
-        flagSrc: ""
-    },
+    // {
+    //     name: "French Polynesia",
+    //     region: "Pacific",
+    //     capital: "Papeetē",
+    //     lat: -15,
+    //     long: -140,
+    //     mapSrc: "",
+    //     country_code: "PF",
+    //     flagSrc: ""
+    // },
     {
         name: "Qatar",
         region: "Asia",
@@ -1827,9 +1827,9 @@ export const countries: Country[] = [
         capital: "Saint-Denis",
         lat: -21.15,
         long: 55.5,
-        mapSrc: "",
+        mapSrc: "https://i.imgur.com/l7d0F0N.png",
         country_code: "RE",
-        flagSrc: ""
+        flagSrc: "https://i.imgur.com/K05nOEt.png"
     },
     {
         name: "Romania",
@@ -1887,7 +1887,7 @@ export const countries: Country[] = [
         capital: "Dakar",
         lat: 14,
         long: -14,
-        mapSrc: "",
+        mapSrc: "https://i.imgur.com/8rgn0Ch.png",
         country_code: "SN",
         flagSrc: "https://i.imgur.com/4OPyLPw.jpg"
     },
@@ -1901,23 +1901,23 @@ export const countries: Country[] = [
         country_code: "SG",
         flagSrc: "https://i.imgur.com/SOyY7we.jpg"
     },
-    {
-        name: "South Georgia",
-        region: "Atlantic",
-        capital: "King Edward Point",
-        lat: -54.5,
-        long: -37,
-        mapSrc: "",
-        country_code: "GS",
-        flagSrc: ""
-    },
+    // {
+    //     name: "South Georgia",
+    //     region: "Atlantic",
+    //     capital: "King Edward Point",
+    //     lat: -54.5,
+    //     long: -37,
+    //     mapSrc: "",
+    //     country_code: "GS",
+    //     flagSrc: ""
+    // },
     {
         name: "Solomon Islands",
         region: "Pacific",
         capital: "Honiara",
         lat: -8,
         long: 159,
-        mapSrc: "",
+        mapSrc: "https://i.imgur.com/j4uu5uR.png",
         country_code: "SB",
         flagSrc: "https://i.imgur.com/7l6eUCW.jpg"
     },
@@ -1947,7 +1947,7 @@ export const countries: Country[] = [
         capital: "City of San Marino",
         lat: 43.76666666,
         long: 12.41666666,
-        mapSrc: "",
+        mapSrc: "https://i.imgur.com/PGTRWjW.png",
         country_code: "SM",
         flagSrc: "https://i.imgur.com/iqPm0vP.jpg"
     },
@@ -1967,9 +1967,9 @@ export const countries: Country[] = [
         capital: "Saint-Pierre",
         lat: 46.83333333,
         long: -56.33333333,
-        mapSrc: "",
+        mapSrc: "https://i.imgur.com/cY5WO9C.png",
         country_code: "PM",
-        flagSrc: ""
+        flagSrc: "https://i.imgur.com/o4MVfab.png"
     },
     {
         name: "Serbia",
@@ -1977,7 +1977,7 @@ export const countries: Country[] = [
         capital: "Belgrade",
         lat: 44,
         long: 21,
-        mapSrc: "",
+        mapSrc: "https://i.imgur.com/UTkwNCB.png",
         country_code: "RS",
         flagSrc: "https://i.imgur.com/rEteRJk.jpg"
     },
@@ -1987,7 +1987,7 @@ export const countries: Country[] = [
         capital: "Juba",
         lat: 7,
         long: 30,
-        mapSrc: "",
+        mapSrc: "https://i.imgur.com/nrKWzcH.png",
         country_code: "SS",
         flagSrc: "https://i.imgur.com/ymTi9Wv.jpg"
     },
@@ -1997,7 +1997,7 @@ export const countries: Country[] = [
         capital: "São Tomé",
         lat: 1,
         long: 7,
-        mapSrc: "",
+        mapSrc: "https://i.imgur.com/Wxe5IeY.png",
         country_code: "ST",
         flagSrc: "https://i.imgur.com/pK8KwZB.jpg"
     },
@@ -2007,7 +2007,7 @@ export const countries: Country[] = [
         capital: "Paramaribo",
         lat: 4,
         long: -56,
-        mapSrc: "",
+        mapSrc: "https://i.imgur.com/XrsDlXI.png",
         country_code: "SR",
         flagSrc: "https://i.imgur.com/nmgatxF.jpg"
     },
@@ -2017,7 +2017,7 @@ export const countries: Country[] = [
         capital: "Bratislava",
         lat: 48.66666666,
         long: 19.5,
-        mapSrc: "",
+        mapSrc: "https://i.imgur.com/uPd5LiC.png",
         country_code: "SK",
         flagSrc: "https://i.imgur.com/fQla6lz.jpg"
     },
@@ -2047,27 +2047,27 @@ export const countries: Country[] = [
         capital: "Lobamba",
         lat: -26.5,
         long: 31.5,
-        mapSrc: "",
+        mapSrc: "https://i.imgur.com/r0kfsIf.png",
         country_code: "SZ",
         flagSrc: "https://i.imgur.com/0gUesmk.jpg"
     },
-    {
-        name: "Sint Maarten",
-        region: "America",
-        capital: "Philipsburg",
-        lat: 18.033333,
-        long: -63.05,
-        mapSrc: "",
-        country_code: "SX",
-        flagSrc: ""
-    },
+    // {
+    //     name: "Sint Maarten",
+    //     region: "America",
+    //     capital: "Philipsburg",
+    //     lat: 18.033333,
+    //     long: -63.05,
+    //     mapSrc: "",
+    //     country_code: "SX",
+    //     flagSrc: ""
+    // },
     {
         name: "Seychelles",
         region: "Indian",
         capital: "Victoria",
         lat: -4.58333333,
         long: 55.66666666,
-        mapSrc: "",
+        mapSrc: "https://i.imgur.com/C9RkCSk.png",
         country_code: "SC",
         flagSrc: "https://i.imgur.com/t9EERKd.jpg"
     },
@@ -2077,7 +2077,7 @@ export const countries: Country[] = [
         capital: "Damascus",
         lat: 35,
         long: 38,
-        mapSrc: "",
+        mapSrc: "https://i.imgur.com/DpPDPLx.png",
         country_code: "SY",
         flagSrc: "https://i.imgur.com/JLvyPbf.jpg"
     },
@@ -2087,9 +2087,9 @@ export const countries: Country[] = [
         capital: "Cockburn Town",
         lat: 21.75,
         long: -71.58333333,
-        mapSrc: "",
+        mapSrc: "https://i.imgur.com/9OC7fwr.png",
         country_code: "TC",
-        flagSrc: ""
+        flagSrc: "https://i.imgur.com/C3lnf8h.png"
     },
     {
         name: "Chad",
@@ -2097,7 +2097,7 @@ export const countries: Country[] = [
         capital: "N'Djamena",
         lat: 15,
         long: 19,
-        mapSrc: "",
+        mapSrc: "https://i.imgur.com/lSEHuAT.png",
         country_code: "TD",
         flagSrc: "https://i.imgur.com/EP0WgO5.jpg"
     },
@@ -2107,7 +2107,7 @@ export const countries: Country[] = [
         capital: "Lomé",
         lat: 8,
         long: 1.16666666,
-        mapSrc: "",
+        mapSrc: "https://i.imgur.com/49PRHQh.png",
         country_code: "TG",
         flagSrc: "https://i.imgur.com/fY6PlvW.jpg"
     },
@@ -2127,27 +2127,27 @@ export const countries: Country[] = [
         capital: "Dushanbe",
         lat: 39,
         long: 71,
-        mapSrc: "",
+        mapSrc: "https://i.imgur.com/2yRmZjC.png",
         country_code: "TJ",
         flagSrc: "https://i.imgur.com/ao36wHJ.jpg"
     },
-    {
-        name: "Tokelau",
-        region: "Pacific",
-        capital: "Fakaofo",
-        lat: -9,
-        long: -172,
-        mapSrc: "",
-        country_code: "TK",
-        flagSrc: ""
-    },
+    // {
+    //     name: "Tokelau",
+    //     region: "Pacific",
+    //     capital: "Fakaofo",
+    //     lat: -9,
+    //     long: -172,
+    //     mapSrc: "",
+    //     country_code: "TK",
+    //     flagSrc: ""
+    // },
     {
         name: "Turkmenistan",
         region: "Asia",
         capital: "Ashgabat",
         lat: 40,
         long: 60,
-        mapSrc: "",
+        mapSrc: "https://i.imgur.com/GzAJ0UC.png",
         country_code: "TM",
         flagSrc: "https://i.imgur.com/3J5GDQw.jpg"
     },
@@ -2157,7 +2157,7 @@ export const countries: Country[] = [
         capital: "Dili",
         lat: -8.83333333,
         long: 125.91666666,
-        mapSrc: "",
+        mapSrc: "https://i.imgur.com/BGfVrAJ.png",
         country_code: "TL",
         flagSrc: "https://i.imgur.com/rbAlsFZ.jpg"
     },
@@ -2167,7 +2167,7 @@ export const countries: Country[] = [
         capital: "Nuku'alofa",
         lat: -20,
         long: -175,
-        mapSrc: "",
+        mapSrc: "https://i.imgur.com/z5Inbvw.png",
         country_code: "TO",
         flagSrc: "https://i.imgur.com/OZqAIl5.jpg"
     },
@@ -2187,7 +2187,7 @@ export const countries: Country[] = [
         capital: "Tunis",
         lat: 34,
         long: 9,
-        mapSrc: "",
+        mapSrc: "https://imgur.com/xaPbjnL",
         country_code: "TN",
         flagSrc: "https://i.imgur.com/3e2HXhb.jpg"
     },
@@ -2197,20 +2197,20 @@ export const countries: Country[] = [
         capital: "Ankara",
         lat: 39,
         long: 35,
-        mapSrc: "",
+        mapSrc: "https://i.imgur.com/aXPpQNO.png",
         country_code: "TR",
         flagSrc: "https://i.imgur.com/o59brQs.jpg"
     },
-    {
-        name: "Tuvalu",
-        region: "Pacific",
-        capital: "Funafuti",
-        lat: -8,
-        long: 178,
-        mapSrc: "",
-        country_code: "TV",
-        flagSrc: "https://i.imgur.com/oCZZGKg.jpg"
-    },
+    // {
+    //     name: "Tuvalu",
+    //     region: "Pacific",
+    //     capital: "Funafuti",
+    //     lat: -8,
+    //     long: 178,
+    //     mapSrc: "",
+    //     country_code: "TV",
+    //     flagSrc: "https://i.imgur.com/oCZZGKg.jpg"
+    // },
     {
         name: "Taiwan",
         region: "Asia",
@@ -2227,7 +2227,7 @@ export const countries: Country[] = [
         capital: "Dodoma",
         lat: -6,
         long: 35,
-        mapSrc: "",
+        mapSrc: "https://i.imgur.com/n4tAvnz.png",
         country_code: "TZ",
         flagSrc: "https://i.imgur.com/xq5Wq8D.jpg"
     },
@@ -2257,7 +2257,7 @@ export const countries: Country[] = [
         capital: "Montevideo",
         lat: -33,
         long: -56,
-        mapSrc: "",
+        mapSrc: "https://i.imgur.com/nVJRiyA.png",
         country_code: "UY",
         flagSrc: "https://i.imgur.com/2cwyPuB.jpg"
     },
@@ -2277,7 +2277,7 @@ export const countries: Country[] = [
         capital: "Tashkent",
         lat: 41,
         long: 64,
-        mapSrc: "",
+        mapSrc: "https://i.imgur.com/Tc8L072.png",
         country_code: "UZ",
         flagSrc: "https://i.imgur.com/96JPPUz.jpg"
     },
@@ -2287,9 +2287,9 @@ export const countries: Country[] = [
         capital: "Vatican City",
         lat: 41.9,
         long: 12.45,
-        mapSrc: "",
+        mapSrc: "https://i.imgur.com/H10Q5PU.png",
         country_code: "VA",
-        flagSrc: ""
+        flagSrc: "https://i.imgur.com/U7S9uj7.png"
     },
     {
         name: "Saint Vincent and the Grenadines",
@@ -2297,7 +2297,7 @@ export const countries: Country[] = [
         capital: "Kingstown",
         lat: 13.25,
         long: -61.2,
-        mapSrc: "",
+        mapSrc: "https://i.imgur.com/CFtRXgU.png",
         country_code: "VC",
         flagSrc: "https://i.imgur.com/Uadl3te.jpg"
     },
@@ -2311,26 +2311,26 @@ export const countries: Country[] = [
         country_code: "VE",
         flagSrc: "https://i.imgur.com/Y7kno5D.jpg"
     },
-    {
-        name: "British Virgin Islands",
-        region: "America",
-        capital: "Road Town",
-        lat: 18.431383,
-        long: -64.62305,
-        mapSrc: "",
-        country_code: "VG",
-        flagSrc: ""
-    },
-    {
-        name: "United States Virgin Islands",
-        region: "America",
-        capital: "Charlotte Amalie",
-        lat: 18.35,
-        long: -64.933333,
-        mapSrc: "",
-        country_code: "VI",
-        flagSrc: ""
-    },
+    // {
+    //     name: "British Virgin Islands",
+    //     region: "America",
+    //     capital: "Road Town",
+    //     lat: 18.431383,
+    //     long: -64.62305,
+    //     mapSrc: "",
+    //     country_code: "VG",
+    //     flagSrc: ""
+    // },
+    // {
+    //     name: "United States Virgin Islands",
+    //     region: "America",
+    //     capital: "Charlotte Amalie",
+    //     lat: 18.35,
+    //     long: -64.933333,
+    //     mapSrc: "",
+    //     country_code: "VI",
+    //     flagSrc: ""
+    // },
     {
         name: "Vietnam",
         region: "Asia",
@@ -2347,7 +2347,7 @@ export const countries: Country[] = [
         capital: "Port Vila",
         lat: -16,
         long: 167,
-        mapSrc: "",
+        mapSrc: "https://i.imgur.com/sxdLQ2Z.png",
         country_code: "VU",
         flagSrc: "https://i.imgur.com/CxU06lr.jpg"
     },
@@ -2357,9 +2357,9 @@ export const countries: Country[] = [
         capital: "Mata-Utu",
         lat: -13.3,
         long: -176.2,
-        mapSrc: "",
+        mapSrc: "https://i.imgur.com/Q2m4qG2.png",
         country_code: "WF",
-        flagSrc: ""
+        flagSrc: "https://i.imgur.com/gRp3hYM.png"
     },
     {
         name: "Samoa",
@@ -2367,7 +2367,7 @@ export const countries: Country[] = [
         capital: "Apia",
         lat: -13.58333333,
         long: -172.33333333,
-        mapSrc: "",
+        mapSrc: "https://i.imgur.com/nwzL1ti.png",
         country_code: "WS",
         flagSrc: "https://i.imgur.com/BVJjdre.jpg"
     },
