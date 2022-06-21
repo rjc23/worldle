@@ -10,6 +10,10 @@ import { GuessComponent } from './components/guesses/guess/guess.component';
 import { InputComponent } from './components/input/input.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { CountUpModule } from 'ngx-countup';
+import { AlertComponent } from './components/alert/alert.component';
+import { RulesComponent } from './components/rules/rules.component';
+import { GameComponent } from './components/game/game.component';
+import { TextLimitPipe } from './text-limit.pipe';
 
 @NgModule({
   declarations: [
@@ -18,7 +22,11 @@ import { CountUpModule } from 'ngx-countup';
     ImageComponent,
     GuessesComponent,
     GuessComponent,
-    InputComponent
+    InputComponent,
+    AlertComponent,
+    RulesComponent,
+    GameComponent,
+    TextLimitPipe
   ],
   imports: [
     BrowserModule,

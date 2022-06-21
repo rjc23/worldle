@@ -1,3 +1,25 @@
 <div class="header">
     <h1><b>WOR<span class="letter">L</span>DLE</b></h1>
+    <div class="buttons">
+        <div class="types">
+            <a (click)="updateGameType('country')">
+                <img src="./../../../assets/world.png" alt="">
+            </a>
+            <a (click)="updateGameType('flag')">
+                <img src="./../../../assets/flag.png" alt="">
+            </a>
+            <a (click)="updateGameType('capital')">
+                <img src="./../../../assets/capitalcity.png" alt="">
+            </a>
+        </div>
+        <div class="modes" *ngIf="(state$ | async)?.gameMode as mode">
+            <a (click)="toggleUnlimited()">
+                <img *ngIf="mode === 'Unlimited'" src="./../../../assets/24hour.png" alt="">
+                <img *ngIf="mode === 'Daily'" src="./../../../assets/infinity.png" alt="">
+            </a>
+            <a routerLink="/rules">
+                <img src="./../../../assets/mark.png" alt="">
+            </a>
+        </div>
+    </div>
 </div>

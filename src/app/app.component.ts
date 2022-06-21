@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs';
+import { Game } from './interfaces/interfaces';
 import { DataService } from './services/data.service';
+import { RandomNumService } from './services/random-num.service';
 
 @Component({
   selector: 'app-root',
@@ -8,9 +11,13 @@ import { DataService } from './services/data.service';
 })
 export class AppComponent implements OnInit {
 
-  constructor(private data: DataService) {}
+  state$: Observable<Game>;
+
+  constructor(private data: DataService) {
+    this.state$ = this.data.getState();
+  }
   
   ngOnInit(): void {
-    this.data.createGame();
+    this.data.createGame('country');
   }
 }

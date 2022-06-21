@@ -1,5 +1,11 @@
 export interface Game {
     country: string,
+    gameType: string,
+    gameMode: string,
+    showAlert: boolean,
+    showShare: boolean,
+    showAnswer: boolean,
+    date: string,
     imgSrc: string,
     lat: number,
     long: number,

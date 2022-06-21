@@ -1,5 +1,22 @@
+<div class="mode-type">
+    <div class="gameType" *ngIf="(state$ | async)?.gameType as type">
+        <h5 *ngIf="type === 'country'"><b>Countries</b></h5>
+        <h5 *ngIf="type === 'flag'"><b>Flags</b></h5>
+        <h5 *ngIf="type === 'capital'"><b>Capitals</b></h5>
+    </div>
+    <div *ngIf="(state$ | async)?.gameMode as mode">
+        <h5 *ngIf="mode === 'Daily'">Daily Challenge</h5>
+        <h5 *ngIf="mode === 'Unlimited'">Unlimited</h5>
+    </div>
+</div>
 <div class="wrapper">
     <span *ngIf="state$ | async as state">
-        <img [attr.src]="state.imgSrc" alt="Country to guess">
+        <span *ngIf="state.gameType !== 'capital'">
+            <div *ngIf="(imgState$ | async)" class="spinner-border" role="status"></div>
+            <img [hidden]="imgState$ | async" (load)="isLoaded()" [ngClass]="{'outline' : state.gameType === 'flag'}" [attr.src]="state.imgSrc" alt="Country to guess">
+        </span>
+        <span *ngIf="state.gameType === 'capital'" class="capital-wrapper">
+            <b><p class="capital">{{ state.imgSrc }}</p></b>
+        </span>
     </span>
 </div>

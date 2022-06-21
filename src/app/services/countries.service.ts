@@ -13,8 +13,11 @@ export class CountriesService {
     return countries;
   }
 
-  findCountry(country: string) : Country {
+  findCountry(country: string) : Country | null {
     let c = countries.filter(val => val.name.toLowerCase() === country.toLowerCase());
+    if(c === []) {
+      return null;
+    }
     return c[0];
   }
 
@@ -48,9 +51,9 @@ export class CountriesService {
     return squares;
   }
 
-  getArrow(bearing: number) : string { 
+  getArrow(bearing: number, dist: number) : string { 
     switch(true) {
-      case bearing === 0:
+      case bearing === 0 && dist === 0:
         return "🎉";
       case bearing < 22.5:
         return "⬇️"

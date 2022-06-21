@@ -3,16 +3,12 @@
     <div class="is-not-blank">
         <div *ngIf="guess.isLoading" class="is-loading">
             <span 
-                *ngFor="let square of guess.squares; let i = index" 
-                data-aos="fade-in"
-                data-aos-duration="500"
-                [attr.data-aos-delay]="getDelay(i)"
-                class="{{ square }}"
+                *ngFor="let square of guess.squares; let i = index" class="{{ square }} fade-in-{{i}}"
             ></span>
         </div>
         <div class="is-guessed" *ngIf="guess.isGuessed">
             <div class="country">
-                {{ guess.country }}
+                {{ guess.country | textLimit }}
             </div>
             <div class="kilometers">
                 {{ guess.distance }}km
@@ -24,7 +20,7 @@
         <div class="percent-wrapper"
             *ngIf="guess.isLoading || guess.isGuessed">
             <div class="percent">
-                <span [countUp]="guess.percent"></span>%
+                <span [countUp]="guess.percent" [options]="{duration: 1.7}"></span>%
             </div>
         </div>
     </div>

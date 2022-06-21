@@ -1,0 +1,25 @@
+@import './../../../colours.scss';
+
+.card {
+    border: none;
+    padding: 18px 0;
+
+    .close {
+        display: flex;
+        justify-content: flex-end;
+        img {
+            width: 20px;
+            height: 20px;
+        }
+    }
+
+    p {
+        img {
+            background-color: $grey;
+            border-radius: 3px;
+            padding: 4px;
+            height: 25px;
+            width: 25px;
+        }
+    }
+}

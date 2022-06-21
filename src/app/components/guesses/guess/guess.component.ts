@@ -1,5 +1,4 @@
 import { Component, Input, OnInit } from '@angular/core';
-import * as AOS from 'aos';
 
 @Component({
   selector: 'app-guess',
@@ -13,10 +12,6 @@ export class GuessComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    AOS.init();
-  }
 
-  getDelay(index : number) : number {
-    return index*250;
   }
 }

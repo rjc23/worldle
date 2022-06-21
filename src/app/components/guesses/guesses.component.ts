@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
 import { map, Observable } from 'rxjs';
 import { DataService } from '../../services/data.service';
 
@@ -6,6 +6,7 @@ import { DataService } from '../../services/data.service';
   selector: 'app-guesses',
   templateUrl: './guesses.component.html',
   styleUrls: ['./guesses.component.scss']
+  // changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class GuessesComponent {
 

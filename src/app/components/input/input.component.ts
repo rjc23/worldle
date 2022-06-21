@@ -1,4 +1,4 @@
-import { Component, ElementRef, HostListener, Injectable, OnInit, ViewChild } from '@angular/core';
+import { ChangeDetectionStrategy, Component, ElementRef, HostListener, Injectable, OnInit, ViewChild } from '@angular/core';
 import { FormControl, ValidatorFn } from '@angular/forms';
 import { BehaviorSubject, map, Observable, Subject, Subscription, tap } from 'rxjs';
 import { DataService } from '../../services/data.service';
@@ -9,10 +9,13 @@ import { CountriesService } from 'src/app/services/countries.service';
   selector: 'app-input',
   templateUrl: './input.component.html',
   styleUrls: ['./input.component.scss']
+  // changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class InputComponent implements OnInit {
 
   valueChanges!: Subscription;
+  state!: Subscription;
+
   @ViewChild('dropdown', { read: ElementRef, static: false }) dropdown!: ElementRef;
 
   @HostListener('document:click', ['$event'])
@@ -30,26 +33,31 @@ export class InputComponent implements OnInit {
   input = new FormControl('');
   focusClicked = false;
   countryNames: string[] = [];
-  list = new BehaviorSubject(this.countryNames);
+  list: string[] = [];
   state$: Observable<Game>;
+  showAnswer$: Observable<boolean>;
   inputValue$: any;
+  copied = false;
 
   constructor(
     private data: DataService,
     private countries: CountriesService
   ) { 
     this.state$ = this.data.getState();
+    this.showAnswer$ = this.state$.pipe(
+      map(val => val.showAnswer)
+    );
     this.inputValue$ = this.state$.pipe(
       map(val => val.guessValue)
-    )
+    );
   }
 
   ngOnInit(): void {
     this.onChanges();
     this.inputChange();
-    let countries = this.countries.getCountries();
+    let countries: Country[] = this.countries.getCountries();
     this.countryNames = countries.map(val => val.name);
-    this.list.next(this.countryNames);
+    this.list = JSON.parse(JSON.stringify(this.countryNames));
   }
   
   onFocus() {
@@ -71,19 +79,20 @@ export class InputComponent implements OnInit {
   }
   
   inputChange() {
-    this.state$.subscribe(val => {
+    this.state = this.state$.subscribe(val => {
       this.input.setValue(val.guessValue);
     })
   }
 
   filterList(val: string) {
-    let newList: string[] = [];
+    this.list = [];
     this.countryNames.forEach(word => {
       if(word.toLowerCase().includes(val.toLowerCase())) {
-        newList.push(word);
+        this.list.push(word);
       }
     });
-    this.list.next(newList);
+    // this.countryNames = newList;
+    // this.list.next(newList);
   }
 
   guess() {
@@ -95,7 +104,27 @@ export class InputComponent implements OnInit {
     this.showListBox = false;
   }
 
+  share(){
+    const selBox = document.createElement('textarea');
+    selBox.style.position = 'fixed';
+    selBox.style.left = '0';
+    selBox.style.top = '0';
+    selBox.style.opacity = '0';
+    selBox.value = "https://playworldle.com";
+    document.body.appendChild(selBox);
+    selBox.focus();
+    selBox.select();
+    document.execCommand('copy');
+    document.body.removeChild(selBox);
+    this.copied = true;
+    setTimeout(() => {
+      console.log('hello :)');
+      this.copied = false;
+  }, 500);
+  }
+
   ngOnDestroy() {
     this.valueChanges.unsubscribe();
+    this.state.unsubscribe();
   }
 }

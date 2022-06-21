@@ -1,9 +1,11 @@
 .container {
     width: 100%;
+    max-width: 512px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    > * {
-        width: 512px;
-    }
+    // position: relative;
+    // > * {
+    //     width: 100%;
+    // }
 }

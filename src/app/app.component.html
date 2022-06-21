@@ -1,7 +1,8 @@
 <div class="container">
   <app-header></app-header>
-  <app-image></app-image>
-  <app-guesses></app-guesses>
+  <router-outlet></router-outlet>
 </div>
 
-
+<pre>
+  {{ state$ | async | json }}
+</pre>

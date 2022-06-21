@@ -2,6 +2,12 @@ import { Game } from "../interfaces/interfaces";
 
 export const initialData: Game = {
     country: "",
+    gameType: "country",
+    gameMode: "Daily",
+    showAlert: false,
+    showShare: false,
+    showAnswer: false,
+    date: "",
     imgSrc: "",
     lat: 0,
     long: 0,
